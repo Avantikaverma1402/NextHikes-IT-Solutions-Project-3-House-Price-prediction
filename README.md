@@ -13,7 +13,7 @@ This project presents an **Exploratory Data Analysis (EDA)** and the development
 - **Data Types:**
   - **Numerical Features:** 36
   - **Categorical Features:** 45
-- **Target Variable:** `SalePrice`
+- **Target Variable:** SalePrice
 
 - **Key Objective:** Predict housing prices based on various property characteristics.
 
