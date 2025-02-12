@@ -14,7 +14,7 @@ This project presents an **Exploratory Data Analysis (EDA)** and the development
   - **Numerical Features:** 36
   - **Categorical Features:** 45
 - **Target Variable:** `SalePrice`
-- **Dataset Source:** Kaggle (Ames Housing Dataset)
+
 - **Key Objective:** Predict housing prices based on various property characteristics.
 
 ---
@@ -29,10 +29,10 @@ This project presents an **Exploratory Data Analysis (EDA)** and the development
 
 ### 2.2 Missing Value Analysis
 
-- **Alley (93.77%)** → Dropped or replaced with 'None'.
+- **Alley (93.77%)** → Dropped.
 - **PoolQC (99.52%)** → Dropped due to the low presence of pools.
 - **GarageYrBlt (5.55%)** → Imputed using the median value of the garage construction year.
-- **MasVnrType (59.73%)** → Imputed based on `MasVnrArea`.
+- **MasVnrType (59.73%)** → Imputed based on MasVnrArea.
 
 ### 2.3 Missing Value Handling Strategies
 
