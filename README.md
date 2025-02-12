@@ -48,12 +48,12 @@ This project presents an **Exploratory Data Analysis (EDA)** and the development
 
 - **OverallQual** and **GrLivArea** are the most important predictors of **SalePrice**.
 - **SalePrice** shows a right-skewed distribution, requiring a log transformation for better normality.
-- **Highly skewed variables** include `LotArea`, `1stFlrSF`, and `BsmtFinSF1`.
+- **Highly skewed variables** include LotArea, 1stFlrSF, and BsmtFinSF1.
 
 ### 3.2 Feature Scaling & Transformations
 
 - **Normalization:** Applied MinMaxScaler to scale numerical features.
-- **Log Transformations:** Applied to `SalePrice` and other skewed features.
+- **Log Transformations:** Applied to SalePrice and other skewed features.
 
 ---
 
@@ -73,7 +73,7 @@ This project presents an **Exploratory Data Analysis (EDA)** and the development
 ### 4.3 Encoding Strategy
 
 - **One-Hot Encoding (OHE):** Applied to high-cardinality categorical variables.
-- **Label Encoding:** Used for ordinal features like `ExterQual`, `BsmtQual`, and `KitchenQual`.
+- **Label Encoding:** Used for ordinal features like ExterQual, BsmtQual, and KitchenQual.
 
 ---
 
@@ -93,7 +93,7 @@ Outliers were detected in key numerical features:
 
 ## 6. Correlation Analysis & Feature Importance
 
-### 6.1 Strongly Correlated Features with `SalePrice`
+### 6.1 Strongly Correlated Features with SalePrice
 
 - **OverallQual (0.79)**
 - **GrLivArea (0.71)**
@@ -129,7 +129,7 @@ Outliers were detected in key numerical features:
 - **Random Forest Results:**
   - **RMSE:** Lower error compared to Linear Regression.
   - **R² Score:** Significant improvement in model accuracy.
-  - **Feature Importance:** `OverallQual`, `GrLivArea`, and `GarageCars` are the top predictors.
+  - **Feature Importance:** OverallQual, GrLivArea, and GarageCars are the top predictors.
 
 ---
 
@@ -137,7 +137,7 @@ Outliers were detected in key numerical features:
 
 ### 8.1 Key Findings
 
-- **Random Forest** outperforms **Linear Regression** in predicting `SalePrice`.
+- **Random Forest** outperforms **Linear Regression** in predicting SalePrice.
 - The key predictors of housing prices are **OverallQual**, **GrLivArea**, and **GarageCars**.
 - Proper handling of missing values and outliers is essential for accurate predictions.
 - **Feature Engineering** (encoding, transformations) significantly improves model performance.
