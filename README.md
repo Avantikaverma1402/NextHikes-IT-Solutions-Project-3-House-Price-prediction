@@ -61,7 +61,7 @@ This project presents an **Exploratory Data Analysis (EDA)** and the development
 
 ### 4.1 Key Features
 
-- **Neighborhood:** Strong correlation with `SalePrice`, highlighting the importance of location.
+- **Neighborhood:** Strong correlation with SalePrice, highlighting the importance of location.
 - **HouseStyle** & **RoofStyle:** Influence the perceived value of properties.
 - **Exterior Features:** Impact house valuation based on materials used.
 
