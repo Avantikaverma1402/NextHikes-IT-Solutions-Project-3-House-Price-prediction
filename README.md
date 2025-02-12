@@ -1,4 +1,4 @@
-# Housing Price Prediction: Exploratory Data Analysis (EDA) & Model Development
+# Housing Price Prediction: Exploratory Data Analysis (EDA)
 
 ## Project Overview
 
